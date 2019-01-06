@@ -1,0 +1,22 @@
+SEARCH URL:
+    nhentai.net/api/galleries/search?query=<search>&page=<page_no>
+
+BOOK DETAILS:
+    nhentai.net/api/gallery/<book_id>
+    # RETURN A BOOK OBJECT
+
+RELATED BOOKS:
+    nhentai.net/api/gallery/<book_id>/related
+    # RETURN : LIST OF BOOK OBJECTS
+
+PICTURE URL:
+    i.nhentai.net/galleries/<media_id>/<page>.jpg
+
+COVER PAGE URL:
+    t.nhentai.net/galleries/<media_id>/cover.jpg
+
+ALL:
+    nhentai.net/api/galleries/all?page=<page_no>
+
+TAGS:
+    nhentai.net/api/galleries/tagged?tag_id=<tag_id>&sort=popular
